@@ -1,0 +1,47 @@
+body {
+        background-color: yellowgreen; /* fundo verde */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .quadrado {
+        background-color: white; /* quadrado branco */
+        width: 40vw; /* 40% da largura da tela */
+        padding: 3vw;
+        border-radius: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 80%; /* proporcional ao tamanho do quadrado */
+        margin: 10px 0;
+        border: none;
+        padding: 1em; /* proporcional ao tamanho da fonte */
+        background-color: gainsboro;
+        border-radius: 8px;
+        font-size: 1em;
+    }
+
+    button {
+        margin-top: 20px;
+        width: 80%; /* mesmo tamanho proporcional que os inputs */
+        padding: 1em;
+        background-color: green;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    button:hover {
+        background-color: darkgreen;
+    }
